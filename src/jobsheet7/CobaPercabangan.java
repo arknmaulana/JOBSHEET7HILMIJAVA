@@ -5,6 +5,7 @@
  */
 package jobsheet7;
 
+import java.util.Scanner;
 /**
  *
  * @author HP ZBOOK 15
@@ -13,5 +14,22 @@ public class CobaPercabangan {
     public static void main(String[] args) {
         String identitas = "Maulana Hilmi Arkan / X RPL 5 / 21";
         System.out.println("Indentitas : " + identitas);
+        
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Nilai a ? ");
+        int a = scanner.nextInt();
+        
+        System.out.println("\nIF.. 1");
+        if(a < 5) System.out.println("nilai a kurang dari 5");
+        
+        System.out.println("\nIF.. 2");
+        if(a == 5)
+            System.out.println("nilai a sama dengan 5");
+        
+        System.out.println("\nIF.. 3");
+        if(a > 5) {
+            System.out.println("isi variabel a : " + a);
+            System.out.println("nilai a lebih dari 5");
+        }
     }
 }
