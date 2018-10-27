@@ -67,5 +67,6 @@ public class SaranBahan2Resep {
             
         }else
             System.out.println("Mohon maaf, pilihan tidak ditemukan, " + "tidak dapat memberikan saran resep");
+            System.out.println("Coba buat beberapa komposisi yang lain.");
     }
 }
